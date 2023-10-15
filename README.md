@@ -13,7 +13,7 @@ Para executar este projeto, certifique-se de ter o seguinte instalado:
 
 ### Configuração
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/api-contatos.git`
+1. Clone este repositório: `git clone https://github.com/edmundontf/api-contatos.git`
 2. Navegue até o diretório do projeto: `cd api-contatos`
 3. Execute o projeto: `./mvnw spring-boot:run`
 
