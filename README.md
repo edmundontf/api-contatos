@@ -31,10 +31,12 @@ A API oferece os seguintes recursos:
 POST /api/contatos 
 
 Body
-{
-  "nome": "Edmundo Faria ",
-  "email": "edmundofaria@qualquer.com.br",
-  "numeroTelefone": "+55 1234567890"
+{{
+  "nome": "Edmundo Faria Jr",
+  "email": "Edmundo.jr@example.com",
+  "numeroTelefone": "017995342345",
+	"cpf": "123456789"
+}
 }
 ```
 #### Obter todos os contatos
@@ -52,9 +54,10 @@ GET /api/contatos/{id}
 Body
 
 {
-  "nome": "Edmundo Faria jr ",
-  "email": "edmundofaria@qualquer.com.br",
-  "numeroTelefone": "+55 1234567890"
+  "nome": "Edmundo Faria Jr",
+  "email": "Edmundo.jr@example.com",
+  "numeroTelefone": "017995342345",
+	"cpf": "123456789"
 }
 ```
 #### Exclui contato contato por Id
